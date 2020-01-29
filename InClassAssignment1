@@ -1,0 +1,124 @@
+<!--Hiba Khan
+	1/28/20
+	In-class activity 1-6-->
+<html>
+	<header>
+			<h3>Activity 1 and 2 - headings and paragraphs</h3>
+		<meta charset="UTF-8">
+			<h1>Formatting Text</h1>
+			<h2>Paragraphs and line breaks</h2>
+	</header>
+
+	<body>
+			Users of HTML are sometimes surprised to find that HTML gives them little control over the way that a page is displayed. <br> It should be remembered that HTML was developed as a means of marking up the structure of a document not as a way of determining its presentation. <p> Formatting text to appear on a Web page is therefore different from formatting text to appear </p> in a printed document.
+
+		<pre>
+			This
+			<hr>
+
+			is
+
+			cool.
+		</pre>
+<hr>
+<h3>Activity 3 and 4 - Lists and Comments</h3>
+<!--This is activity 3 and 4 of lists and comments-->
+		<ul style="list-style-type: square;">
+			<li>Sunday</li>
+			<li>Monday</li>
+			<li>Tuesday</li>
+			<li>Wednesday</li>
+			<li>Thursday</li>
+			<li>Friday</li>
+			<li>Saturday</li>
+		</ul>
+		<br>
+		<ol type="i">
+			<li>January</li>
+			<li>February</li>
+			<li>March</li>
+			<li>April</li>
+			<li>May</li>
+			<li>June</li>
+			<li>July</li>
+			<li>August</li>
+			<li>September</li>
+			<li>October</li>
+			<li>November</li>
+			<li>December</li>
+		</ol>
+		<br>
+		<dl>
+			<dt>Summer</dt>
+				<dd>- hot</dd>
+			<dt>Spring</dt>
+				<dd>- rain and blooming</dd>
+			<dt>Fall</dt>
+				<dd>- colorful and trees dying</dd>
+			<dt>Winter</dt>
+				<dd>- cold</dd>
+		<br>
+		<dl>
+			<dt>Summer</dt>
+				<dd>
+					<ol type="1"> 
+						<li>June</li>
+						<li>July</li>
+						<li>August</li>
+					</ol>
+				</dd>
+			<dt>Spring</dt>
+				<dd>
+					<ol type="1"> 
+						<li>March</li>
+						<li>April</li>
+						<li>May</li>
+					</ol>
+				</dd>
+			<dt>Fall</dt>
+				<dd>
+					<ol type="1"> 
+						<li>September</li>
+						<li>October</li>
+						<li>Novermber</li>
+					</ol>
+				</dd>
+			<dt>Winter</dt>
+				<dd>
+					<ol type="1"> 
+						<li>December</li>
+						<li>January</li>
+						<li>February</li>
+					</ol>
+				</dd>
+
+		</dl>
+		<hr>
+
+	<h3>Activity 5 - Hyperlinks</h3>
+	<A href="#Section One">Section One</A>
+	<br>
+	<A href="#Section Two">Section Two</A>
+	<br>
+	<A href="File2.html">File 2 Section Two</A>
+	<br>
+	<A href="File2.html">File 2 Section Three</A>
+	<br>
+
+		<h4>Section One</h4>
+		<a name="Section One"></a>
+		<p>Section One. <p> Test goes here. This is the first section. TestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p> </p>
+		<br>
+		<h4>Section Two</h4>
+		<a name="Section Two"></a>
+		<p>Section Two. <p> Test goes here. This is the second section. TestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p>TestingTestingTestingTestingTestingTestingTestingTestingTestingTesting<p> 
+
+	<hr>
+	<h3>Activity 6 - Graphics</h3>
+	<img src="GSUlogo.png">
+	<img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiw_42u6afnAhUkTt8KHXb5D2IQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.gsu.edu%2F&psig=AOvVaw24SI4BbUfTU10dQOggJ27R&ust=1580353400872257" alt="This is the GSU logo" width=50 height=50 border=0 align="right">
+	</IMG>
+
+	</body>
+
+</html>
