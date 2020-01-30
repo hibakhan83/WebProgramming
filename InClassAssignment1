@@ -102,7 +102,7 @@
 	<br>
 	<A href="File2.html">File 2 Section Two</A>
 	<br>
-	<A href="File2.html">File 2 Section Three</A>
+	<A href="File2.html" name="#Section Three">File 2 Section Three</A>
 	<br>
 
 		<h4>Section One</h4>
@@ -115,9 +115,9 @@
 
 	<hr>
 	<h3>Activity 6 - Graphics</h3>
-	<img src="GSUlogo.png">
-	<img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiw_42u6afnAhUkTt8KHXb5D2IQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.gsu.edu%2F&psig=AOvVaw24SI4BbUfTU10dQOggJ27R&ust=1580353400872257" alt="This is the GSU logo" width=50 height=50 border=0 align="right">
-	</IMG>
+	Click the HTML image to the right. Let's see if it works!
+	<a href="https://www.reactiongifs.com/r/cheering_minions.gif"><img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Computer-Programming-Coding-1200x606.jpg" alt="Web Programming Class" width=700 height=350 border=0 align="right"></p>
+
 
 	</body>
 
