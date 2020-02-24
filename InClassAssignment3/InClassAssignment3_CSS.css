@@ -1,0 +1,60 @@
+<html>
+
+<style>
+
+	.center{
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	main{
+		display: flex;
+		align-content: center;
+	}
+
+	.leftbox{
+		width: 200px;
+		height: 300px;
+		float: left;
+		flex-basis: 33%;
+		padding: 2em;
+		margin: 2em;
+		border: dashed red;	
+		margin-bottom: 5px;
+	}
+
+	.rightbox{
+		width: 600px;
+		height: 300px;
+		float: right;
+		flex-basis: 67%;
+		padding: 2em;
+		margin: 2em;
+		border: dashed red;	
+		clear: both;
+		margin-bottom: 5px;	
+	}
+
+	.img{
+		float: right;
+		width: 200px;
+	}
+
+	.fixedpos{
+		position: fixed;
+	}
+
+	body{
+		font-family: times new roman;
+	}
+
+</style>
+
+</html>
