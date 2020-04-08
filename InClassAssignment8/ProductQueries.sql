@@ -1,0 +1,14 @@
+SELECT * FROM webprogramming.products;
+SELECT ProductName, QuantityPerUnit FROM webprogramming.products;
+SELECT ProductID, ProductName FROM webprogramming.products;
+SELECT ProductID, ProductName FROM webprogramming.products WHERE Discontinued=1;
+SELECT ProductName, MAX(UnitPrice) FROM webprogramming.products;
+SELECT ProductName, MIN(UnitPrice) FROM webprogramming.products;
+SELECT ProductID, ProductName, UnitPrice FROM webprogramming.products WHERE UnitPrice<20; 
+SELECT ProductID, ProductName, UnitPrice FROM webprogramming.products WHERE UnitPrice>15 AND UnitPrice<20; 
+SELECT AVG(UnitPrice) FROM webprogramming.products;
+SELECT ProductID, ProductName, UnitPrice FROM webprogramming.products WHERE UnitPrice>28.866; 
+SELECT ProductID, ProductName, UnitPrice FROM webprogramming.products ORDER BY UnitPrice DESC LIMIT 10;
+SELECT COUNT(*) ProductName FROM webprogramming.products WHERE Discontinued=0;
+SELECT COUNT(*) ProductName FROM webprogramming.products WHERE Discontinued=1;
+SELECT ProductName, UnitsOnOrder, UnitsInStock FROM webprogramming.products WHERE UnitsInStock<UnitsOnOrder;
