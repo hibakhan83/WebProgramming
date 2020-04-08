@@ -1,0 +1,45 @@
+
+
+
+
+.container {
+	border-style: solid;
+	border-collapse: collapse;
+	background-color: lightgray;
+	padding: 150px;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	float: center;
+	width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+
+}
+
+.col-25 {
+	float: left;
+	margin-left: 30%;
+
+}
+
+.col-75 {
+	float: right;
+	display: flex;
+	align-content: right;
+	padding-left: 20px;
+	padding-right: 150px;
+
+}
+
+.button{
+	float: left;
+	display: flex;
+	margin-left: 25%;
+}
+
+.center{
+	text-align: center;
+}
