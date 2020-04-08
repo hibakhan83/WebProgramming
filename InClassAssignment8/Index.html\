@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>In-Class Assignment 8</title>
+	<h1>In-Class Assignment 8</h1>
+	<hr>
+	<br>
+</head>
+<body>
+	<ul>
+		
+		<li>First, a table must be created. The name of the table is products, and the primary key is the "ProductID". The following image shows how to create the table in the schema:</li>
+		<p><img src="ProductsCode.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>This code will create a table like the following:</li>
+		<p><img src="ProductsTable.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>To populate the table, an "INSERT INTO" statment is written. The table will add 77 rows. To ensure all values are added, an action output like the following should appear after excuting the code:</li>
+		<p><img src="ProductsRows.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get Product name and quantity/unit is written like:</li>
+		<p><img src="Products_Q1.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get current Product list (Product ID and name) is written like:</li>
+		<p><img src="Products_Q2.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get discontinued Product list (Product ID and name)  is written like:</li>
+		<p><img src="Products_Q3.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get most expensive and least expensive (name and unit price) is written like:</li>
+		<p><img src="Products_Q4a.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+		<p><img src="Products_Q4b.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get Product list (ID, name, and unit price) where current products cost less than $20 is written like:</li>
+		<p><img src="Products_Q5.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get Product list (ID, name, and unit price) where current products cost between $15 and $20 is written like:</li>
+		<p><img src="Products_Q6.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get Product list (ID, name, and unit price) of above average price products is written like:</li>
+		<p><img src="Products_Q7.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get Product list (ID, name, and unit price) of ten most expensive products is written like:</li>
+		<p><img src="Products_Q8.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+	
+		<li>A query to count current and discontinued products is written like:</li>
+		<p><img src="Products_Q9a.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+		<p><img src="Products_Q9b.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+		<li>A query to get Product list (name, units in order, and units in stock) of stock that is less than the quantity on order is written like:</li>
+		<p><img src="Products_Q10.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+	</ul>
+
+	<h4>So to sum it all up, all of the queries look like this: </h4>
+	<p><img src="Products_Queries.PNG" style="width: 500px; height: auto; margin-left: 25%; margin-right: auto;"></p>
+
+</body>
+</html>
