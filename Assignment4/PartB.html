@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 4</title>
+	<h1>Assignment 4</h1>
+	<hr>
+	<br>
+	<ul>
+	<li><a href="PartA.html">Part A</a></li>
+	<li><a href="PartB.html">Part B</a></li>
+	<li><a href="PartC.html">Part C</a></li>
+</ul>
+<hr>
+<br>
+<h1>Part B</h1>
+
+<h3>Try to guess what the Secret Number is!</h3>
+<h4>It's a number between 1 and 100</h4>
+<script type="text/javascript" src="guessnum.js"></script>
+</head>
+<body onload="game()">
+
+
+
+<input type="text" name="number" id="number">
+
+<a href="#" onclick="check_num()">Guess</a>
+
+<p id="attempts"></p>
+
+<h4>Time yourself!</h4>
+
+<p><input onclick="timeMe()" type = "button" value = "Start"><span id = "time">   10:00   </span></input>
+		</p>
+
+</body>
+</html>
