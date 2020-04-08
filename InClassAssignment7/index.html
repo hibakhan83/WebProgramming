@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<title>In-Class Assignment 7</title>
+	<h1>In-Class Assignment 7</h1>
+	<hr>
+	<br>
+	
+
+</head>
+<body>
+
+<br>
+	<script type="text/javascript">
+		document.write("1. Fibonacci Sequence for the first 15 numbers:   ");
+	</script>
+<br>
+<br>
+	<script type="text/javascript">
+		var a=0;
+		var b=1;
+		var c;
+		var i;
+		var n=15;
+
+       document.write(a+ ",   ");
+       document.write(b+ ",   ");
+
+        for( i=3; i <= n;i++) {
+           c = a + b;
+           a = b;
+           b = c;
+        document.write(c+ ",   ");
+       }
+	</script>	
+
+
+<br>
+<br>
+<br>
+<br>
+	<script type="text/javascript">
+		document.write("2. Nested loop for asterisks:   ");
+	</script>
+<br>
+	<script type="text/javascript">
+		var x;
+		var y;
+		var char;
+			for(x=1; x <=10; x++) {
+				for (y=1; y < x; y++) {
+					var char="";
+			  		char=char+(" *");  
+			  		document.write(char);      
+			    } 
+					document.write("<br>"); 
+			}
+	</script>
+
+<br>
+<br>
+<br>
+	<script type="text/javascript">
+		document.write("3. Sorted items of an array:   <br><br>");
+		document.write("var arr1 = [3, 8, 7, 6, 5, -4, 3, 2, 1]");
+	</script>
+<br>
+	<script type="text/javascript">
+	
+		var string = ['Sample Output: '];
+		var arr1 = [3, 8, 7, 6, 5, -4, 3, 2, 1];
+		document.getElementById("Sort").innerHTML = arr1;  
+
+		function Sort() {			
+		 	arr1.sort(function(a, b){ return a - b});
+			document.getElementById("Sort").innerHTML = arr1;
+		}
+	</script>
+	<p id="Sort"></p>
+	<script type="text/javascript"> 
+	Sort();
+	</script>
+
+
+<br>
+<br>
+<br>
+<br>
+	<script type="text/javascript">
+		document.write("4. Most frequent item in array:   <br><br>");
+		document.write("var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3] <br>");
+	</script>
+<br>	
+	<script type="text/javascript">
+		var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+		var max = 1;
+		var m = 0;
+		var item;
+			for (var i=0; i<arr1.length; i++) {
+       			for (var j=i; j<arr1.length; j++) {
+               		if (arr1[i] == arr1[j]) {
+                		m++;
+               		}
+               		if (max<m) {
+                  		max=m; 
+            item = arr1[i];
+              		}
+       			}
+       		m=0;
+			}
+		document.write( item + " ( " + max + " times ) ") ;
+	</script>
+
+
+<br>
+<br>
+<br>
+<br>
+	<script type="text/javascript">
+		document.write("5. Shuffle array of 6 integers:   ");
+		var array =  [1, 2, 3, 4, 5, 6];
+		document.getElementById("Shuffle").innerHTML = array;  
+
+		function Shuffle() {
+		  array.sort(function(a, b){
+		  	return 0.5 - Math.random()
+		  });
+		  document.getElementById("Shuffle").innerHTML = array;
+		}
+	</script>
+	<p id="Shuffle"></p>
+	<script type="text/javascript"> 
+	Shuffle();
+	</script>
+
+<br>
+<br>
+<br>
+<br>
+	<script type="text/javascript">
+		document.write("6. Validating a form:   ");
+	</script>
+<br>
+	<script type="text/javascript">
+		function validateForm() {
+			var x = document.forms["myForm"]["ID"].value;
+				if (x== "") {
+					alert("You forgot to fill in the following field(s) ID, First Name, Last Name");
+					return false;
+			}
+
+			var y = document.forms["myForm"]["fname"].value;
+				if (y== "") {
+					alert("You forgot to fill in the following field(s) ID, First Name, Last Name");
+					return false;
+			}
+			var z = document.forms["myForm"]["lname"].value;
+				if (z== "") {
+					alert("You forgot to fill in the following field(s) ID, First Name, Last Name");
+					return false;
+			}
+
+		}
+	</script>
+	<form name="myForm" onsubmit="return validateForm()" method="post">
+		<p id="rtext" style="margin-left: 90px; text-decoration: underline; color: red"> Please Enter an ID </p>
+		ID: <input type="text" name="ID" style="margin-left: 65px;">
+		<br>
+		<br>
+		<p id="rtext" style="margin-left: 90px; text-decoration: underline; color: red"> Please Enter a First Name </p>
+		First Name: <input type="text" name="fname" style="margin-left: 11px;">
+		<br>
+		<br>
+		<p id="rtext" style="margin-left: 90px; text-decoration: underline; color: red"> Please Enter a Last Name </p>
+		Last Name: <input type="text" name="lname" style="margin-left: 1%;">
+		<br>
+		<br>
+		<input type="submit" value="Add" style="margin-left: 90px;">
+	</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
